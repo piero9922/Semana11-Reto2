@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
     background-color: #808080a1;
 }
 
@@ -36,12 +39,12 @@ form{
     width: 50%;
 }
 
-form div{
+form .form-group{
     margin-bottom: 15px;
     display: flex;
     flex-direction: column;
 }
-div input{
+.form-group input{
     width: 100%;
     border: 1px solid #333333;
     border-radius: 3px;
@@ -68,13 +71,15 @@ input::-webkit-input-placeholder{
 }
 
 
-.pizzara{
-    display: flex;
-    flex-direction: row;
+.pizarra{
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-gap: 10px;
 }
 
 .tarea{
-    display: inline;
-    flex-direction: row;
-    max-width: 200px;
+    background-color: #f3f3f3;
 }
+
