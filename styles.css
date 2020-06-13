@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #808080a1;
+}
+
+header h1{
+    font-size: 40px;
+    text-align: center;
+    color: #333333;
+    padding: 20px;
+}
+
+.main{
+    display: grid;
+    grid-template-rows: 200px 350px;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 h3{
+    color: #333333;
+    padding-bottom: 20px;
+}
+
+form{
+    width: 50%;
+}
+
+form div{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+div input{
+    width: 100%;
+    border: 1px solid #333333;
+    border-radius: 3px;
+    color: #333333;
+    height: 25px;
+    padding-left: 10px;
+    background-color: #ffffff54;
+    font-size: 15px;
+}
+
+input::-webkit-input-placeholder{
+    color: #333333;
+}
+.entrada{
+    display: flex;
+    align-items: center;
+}
+
+.submit{
+    width: 100px;
+    height: 30px;
+    background-color: #ffffff54;
+    border: none;
+}
+
+
+.pizzara{
+    display: flex;
+    flex-direction: row;
+}
+
+.tarea{
+    display: inline;
+    flex-direction: row;
+    max-width: 200px;
+}
