@@ -61,6 +61,7 @@ input::-webkit-input-placeholder{
 .entrada{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .submit{
@@ -80,6 +81,15 @@ input::-webkit-input-placeholder{
 }
 
 .tarea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: #f3f3f3;
+}
+
+.tarea .title{
+    text-transform: uppercase;
+    font-weight: bold;
 }
 

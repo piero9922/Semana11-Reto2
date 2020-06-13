@@ -8,10 +8,11 @@ form.addEventListener('submit', (event)=>{
 
     const contenedorTarea = document.createElement('div')
     contenedorTarea.classList.add('tarea')
-    
+
     console.log(contenedorTarea)
     
     const tarea = document.createElement('div')
+    tarea.classList.add('title')
     const valor1 = input1.value
 
     tarea.innerHTML = valor1
