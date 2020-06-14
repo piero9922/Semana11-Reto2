@@ -86,10 +86,23 @@ input::-webkit-input-placeholder{
     justify-content: center;
     flex-direction: column;
     background-color: #f3f3f3;
+    border-radius: 10px;
+    font-size: 15px;
 }
 
 .tarea .title{
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 15px;
+}
+
+.tarea .delete{
+    background-color: #0a0a0a24;
+    border: none;
+    padding: 2px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 6px;
 }
 
